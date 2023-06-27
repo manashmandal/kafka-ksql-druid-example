@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "kafka-ksql-druid"
+version = "0.1.0"
+description = ""
+authors = ["Manash"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "kafka_ksql_druid"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+confluent-kafka = "^2.1.1"
+faker = "^18.9.0"
+black = "^23.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
